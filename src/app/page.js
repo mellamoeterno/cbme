@@ -1,11 +1,9 @@
-import MobileLayout from "@/components/MobileLayout";
-import DesktopLayout from "@/components/DesktopLayout";
+import ResponsiveComponent from './components/MyComponent/index.js'; 
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-gray-50 p-6">
-      <MobileLayout />
-      <DesktopLayout />
+    <main>
+      <ResponsiveComponent />
     </main>
   );
-};
+}
