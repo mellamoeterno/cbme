@@ -1,4 +1,4 @@
-import ResponsiveComponent from './components/home1/indexHome1.js'; 
+import ResponsiveComponent from '../components/womanClothes/indexWC1.js'; 
 
 export default function Home() {
   return (

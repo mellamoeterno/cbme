@@ -1,5 +1,5 @@
-import DesktopComponent from './Desktop';
-import MobileComponent from './Mobile';
+import DesktopComponent from './DesktopHome1';
+import MobileComponent from './MobileHome1';
 
 export default function ResponsiveComponent() {
   return (
